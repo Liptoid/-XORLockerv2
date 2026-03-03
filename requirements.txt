@@ -1,0 +1,22 @@
+# XORLocker v2 - Full Requirements
+# ================================
+
+# System & Drive Management
+psutil==5.9.5                # Disk and system information
+pywin32==306                 # Windows-specific features (optional)
+
+# Encryption
+pycryptodome==3.19.0         # AES-256 encryption
+cryptography==41.0.7         # Additional cryptographic recipes
+
+# GUI Enhancements
+tkinterdnd2==0.3.0           # Drag and drop support
+Pillow==10.1.0               # Image handling for icons
+
+# File Operations
+pathlib==1.0.1               # Path manipulation
+send2trash==1.8.2            # Safe file deletion
+
+# Utilities
+colorama==0.4.6              # Colored console output
+tqdm==4.66.1                  # Progress bars
